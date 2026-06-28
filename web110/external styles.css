@@ -4,16 +4,16 @@ body {
 }
 
 h1 {
-    color: darkgoldenrod;
+    color: coral;
     font-family: helvetica;
 }
 
 h2 {
-    color: goldenrod;
+    color: lightcoral;
     font-family: helvetica;
 }
 
 p {
-    color: ghostwhite;
+    color: dimgray;
     font-family: helvetica;
 }
