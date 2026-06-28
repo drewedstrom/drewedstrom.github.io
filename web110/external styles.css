@@ -20,5 +20,9 @@ p {
 
 li {
     color: darkred;
+}
+
+a {
+    color: sienna;
     font-family: helvetica;
 }
