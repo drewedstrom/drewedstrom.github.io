@@ -2,22 +2,33 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="external%20styles.css">
-  <meta charset="UTF-8">
-  <title>Assignment 8</title>
+    <link rel="stylesheet" href="external%20styles.css">
+    <meta charset="UTF-8">
+    <title>Assignment 8</title>
 </head>
 
 <body>
-  <h1>Assignment 8</h1>
-  <h2>SQL Statements</h2>
-  <ul>
-    <li>SELECT * FROM Customers;</li>
-    <li>SELECT * FROM Customers WHERE Country='USA';</li>
-    <li>SELECT COUNT(*) FROM Products;</li>
-    <li>INSERT INTO Customers VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');</li>
-    <li>UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;</li>
-  </ul>
-  <p>assignment exercise answers</p>
+    <h1>Assignment 8</h1>
+    <h2>SQL Statements</h2>
+    <ul>
+        <li>SELECT * FROM Customers;</li>
+        <li>SELECT * FROM Customers WHERE Country='USA';</li>
+        <li>SELECT COUNT(*) FROM Products;</li>
+        <li>INSERT INTO Customers VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+        </li>
+        <li>UPDATE Customers SET ContactName = 'Alfred Schmidt', City= 'Frankfurt' WHERE CustomerID = 1;</li>
+    </ul>
+    <h2>Assignment Summary</h2>
+    <p>In this lesson, I learned a few SQL commands for extracting and modifying records from a table. As to not get too
+        into the weeds, I will focus on commands that concern fetching records. To query records, SELECT is used. The
+        names of columns (or * to select all columns in a table) are placed after SELECT, which is then followed by FROM
+        and the name of the table you want to pull data from. If I desired to pull records that fulfill a certain
+        condition—such as customers whose country is the United States—I could tack on the WHERE clause. For the stated
+        example, that would look like SELECT Customers WHERE Country=’USA’. But what if I wanted to add a new record to
+        a table? For that, I could use the INSERT INTO statement. In its most basic form, that would look like INSERT
+        INTO [TableName] VALUES (value1, value2, …). Note that the values must be listed out in the same order as the
+        columns in the table. With these commands at my disposal, I will be able to locate relevant records in an SQL
+        database when necessary as an IT technician.</p>
 </body>
 
 </html>
